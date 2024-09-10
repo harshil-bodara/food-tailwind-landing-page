@@ -33,7 +33,6 @@ body {
     text-wrap: balance;
   }
 }
-
 .swiper-pagination-bullets {
    display: none;
 } 
@@ -48,6 +47,16 @@ body {
 .swiper-button-next{
   color:#555555 !important;
   margin-right:15px;
+}
+.mySwiper .swiper-button-next{
+  height:42px;
+  width:42px;
+  background-color: #00C642;
+  border-radius: 50%;
+}
+.mySwiper .swiper-button-next::after{
+  color:white;
+  font-size:20px; 
 }
 
 

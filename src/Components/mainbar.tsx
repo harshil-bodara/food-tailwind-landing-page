@@ -16,7 +16,7 @@ const swipers = [
 ];
 export default function Mainbar() {
     return (
-        <div className="xl:px-20 min-[320px]:pt-4 sm:pt-2 xl:pt-[60px] sm:px-4 md:px-2 lg:px-20 lg:pt-10 md:pt-6">
+        <div className="xl:px-20 min-[320px]:pt-4 sm:pt-2 xl:pt-[60px] sm:px-4 md:px-2 lg:px-10 lg:pt-10">
             <div className="flex lg:flex-row sm:flex-col min-[320px]:flex-col min-[320px]:pt-[17px] md:pt-0 md:px-2">
                 <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]} loop={true} className="myswiper lg:w-4/5 min-[320px]:w-full">
                     {swipers.map((swiper) =>
