@@ -7,7 +7,7 @@ import healthy3 from "../asset/Frame 154.png";
 
 export default function Healthy() {
     return (
-        <div className="lg:px-20 lg:pt-[60px] min-[320px]:px-2 min-[320px]:pt-8 px-4 md:px-2">
+        <div className="xl:px-20 xl:pt-[60px] min-[320px]:px-2 min-[320px]:pt-8 px-4 md:px-2 lg:px-10 lg:pt-10">
             <div className="container">
                 <div className="flex justify-start lg:ps-5 sm:px-2 lg:px-0 ">
                     <h1 className="lg:text-[32px] sm:text-[24px] text-[#000000] font-[600] font-Roboto min-[320px]:ps-4">HEALTHY SWEETS - HEALTHIER BODY</h1>

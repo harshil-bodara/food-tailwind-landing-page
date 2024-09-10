@@ -25,37 +25,37 @@ const footers2 = [
 
 export default function Footer() {
     return (
-        <div className="lg:px-0 bg-[#F8F7F5] mt-10 h-full min-[320px]:px-2 md:px-0">
-            <div className="flex lg:px-0 md:pt-7 sm:pt-7 min-[320px]:pt-6 min-[320px]:pe-[60px] min-[320px]:ps-[60px] lg:ps-[60px] lg:pt-8 ">
+        <div className="bg-[#F8F7F5] mt-10 md:px-2">
+            <div className="flex lg:px-0 md:pt-7 sm:pt-7 min-[320px]:pt-6 min-[320px]:pe-[60px] min-[320px]:ps-[60px] xl:ps-[60px] lg:pt-8 justify-start">
                 <Image src={footer} alt="" className="lg:w-[255px] lg:h-[42px] min-[320px]:w-[255px] min-[320px]:h-[42px] lg:text-start mt-5"></Image>
             </div>
-            <div className="flex justify-between lg:flex-row sm:flex-wrap  min-[320px]:flex flex-wrap min-[320px]:px-4">
+            <div className="flex justify-between xl:flex-row sm:flex-wrap  min-[320px]:flex flex-wrap lg:pt-[30px] lg:flex-row">
                 <div className="flex">
                     <div className="lg:ps-[60px]">
-                        <h2 className="font-[600] text-[16px] text-[#022507] font-Roboto min-[320px]:ps-4 min-[320px]:pt-4 lg:pt-8 lg:ps-0">CATAGORIES</h2>
+                        <h2 className="font-[600] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-6 lg:ps-4 min-[320px]:ps-4">CATAGORIES</h2>
                         <ul>
                             {footers.map((footer) =>
-                                <li className="font-[400] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-3.5 lg::pt-4">{footer.title}</li>
+                                <li className="font-[400] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-3.5 lg:pt-4 min-[320px]:ps-4">{footer.title}</li>
                             )}
                         </ul>
                     </div>
-                    <div className="min-[320px]:pt-6 ps-10 mt-10">
+                    <div className="min-[320px]:pt-6 ps-10 mt-5">
                         <ul>
                             {footers1.map((footer) =>
-                                <li className="font-[400] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-3.5">{footer.title}</li>
+                                <li className="font-[400] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-3.5 lg:pt-4">{footer.title}</li>
                             )}
                         </ul>
                     </div>
                 </div>
-                <div className="mt-10 lg:ps-10px min-[320px]:flex-wrap sm:ps-20 min-[320px]:pt-4">
+                <div className="mt-10 lg:ps-10px min-[320px]:flex-wrap min-[320px]:pt-2 lg:pt-1 min-[320px]:ps-4">
                     <h2 className="font-[600] text-[16px] text-[#022507] font-Roboto min-[320px]:ps-4">Info</h2>
                     <ul>
                         {footers2.map((footer) =>
-                            <li className="font-[400] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-3.5">{footer.title}</li>
+                            <li className="font-[400] text-[16px] text-[#022507] font-Roboto min-[320px]:pt-3.5 lg:pt-4">{footer.title}</li>
                         )}
                     </ul>
                 </div>
-                <div className="flex min-[320px]:pt-5 lg:-mt-20">
+                <div className="flex min-[320px]:pt-5 lg:-mt-20 lg:pt-12 xl:pt-0">
                     <div className="bg-[#00C462]">
                         <h2 className="text-[16px] text-white font-[600] ps-10 pt-5 font-Roboto">Contacts</h2>
                         <ul>

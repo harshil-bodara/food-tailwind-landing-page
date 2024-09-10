@@ -4,7 +4,7 @@ import fresh from "../asset/Frame 146.png";
 
 export default function Fresh() {
     return (
-        <div className="lg:px-20 lg:pt-[60px] min-[320px]:px-2 sm:px-4 md:px-2">
+        <div className="xl:px-20 xl:pt-[60px] min-[320px]:px-2 sm:px-4 md:px-2 lg:px-10 lg:pt-10">
             <div className="container">
                 <div className="flex justify-start lg:px-0 min-[320px]:pt-8 lg:pt-0">
                     <h1 className="font-[600] lg:text-[32px] sm:text-[24px] text-[#000000] font-Roboto min-[320px]:px-4">FRESH FRUITS FROM FARM</h1>

@@ -1,5 +1,6 @@
 import Chemical from "@/Components/chemical";
 import Drink from "@/Components/drink";
+import Footer from "@/Components/footer";
 import Fresh from "@/Components/fresh";
 import Healthy from "@/Components/healthy";
 import Jams from "@/Components/jams";
@@ -29,6 +30,7 @@ export default function Home() {
         <Jams />
         <Jarred />
         <Chemical />
+        <Footer />
        </div>
     </main>
   );

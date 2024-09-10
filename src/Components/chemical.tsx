@@ -4,7 +4,7 @@ import chemical1 from "../asset/Frame 229.png";
 
 export default function Chemical() {
     return (
-        <div className="lg:px-20 min-[320px]:px-2 min-[320px]:pt-8 lg:pt-[60px]">
+        <div className="xl:px-20 min-[320px]:px-2 min-[320px]:pt-8 xl:pt-[60px] lg:px-10 lg:pt-10">
             <div className="container">
                 <div className="flex justify-start lg:px-0">
                     <h1 className="lg:text-[32px] sm:text-[24px] text-[#000A24] font-[600] font-Roboto min-[320px]:px-2">CHEMICALS</h1>

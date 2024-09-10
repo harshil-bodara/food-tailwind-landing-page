@@ -6,7 +6,7 @@ import treat3 from "../asset/Frame 142.png";
 
 export default function Treat() {
     return (
-        <div className="lg:px-20 min-[320px]:px-2 lg:pt-[60px] sm:px-4 md:px-2">
+        <div className="xl:px-20 min-[320px]:px-2 xl:pt-[60px] sm:px-4 md:px-2 lg:px-10 lg:pt-10">
             <div className="container">
                 <div className="flex justify-start lg:ps-5 min-[320px]:ps-2 pt-8 lg:pt-0">
                     <h1 className="lg:text-[32px] sm:text-[24px] font-[600] text-[#000A24] font-Roboto min-[320px]:px-4">TREAT YOUR KID</h1>

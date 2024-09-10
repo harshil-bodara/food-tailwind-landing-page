@@ -5,7 +5,7 @@ import jams2 from "../asset/Frame 145.png";
 
 export default function Jams() {
     return (
-        <div className="lg:px-20 min-[320px]:px-2 min-[320px]:pt-8 lg:pt-[60px] sm:px-4 md:px-2">
+        <div className="xl:px-20 min-[320px]:px-2 min-[320px]:pt-8 xl:pt-[60px] sm:px-4 md:px-2 lg:px-10 lg:pt-10">
             <div className="flex justify-start sm:px-2 lg:px-0 ">
                 <h1 className="font-[600] lg:text-[32px] sm:text-[24px] text-[#000A24] font-Roboto min-[320px]:px-4">FANTASTIC JAMS & PRESERVES</h1>
             </div>
